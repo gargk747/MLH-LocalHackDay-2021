@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+.list-container {
+    margin: 2em auto;
+}
+
+
+h2.list-header {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+    font-size: 2.5em;
+    background-color: #574b90;
+    padding: 1em;
+    color: #ececec;
+    border-radius: 8px;
+}
+
+.list-input {
+    width: 100%;
+    border-radius: 8px;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+
+.submit-button {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
