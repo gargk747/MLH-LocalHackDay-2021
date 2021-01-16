@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hbar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:layout_centerInParent="true"
+            >
+
+            <include
+                android:id="@+id/frag_overview_credit_card"
+                layout="@layout/list_item_credit_card_selectable"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/frag_overview_err_no_cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/gray_800"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:text="@string/err_no_credit_card_selected"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/frag_overview_body_scroll_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_overview_credit_date_period_title"
+                />
+            <ve.com.abicelis.creditcardexpensemanager.app.views.HorizontalBar
+                android:id="@+id/frag_overview_credit_date_period_bar"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                hbar:barColor="@color/horizontal_bar_credit_period"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_overview_credit_balance_title"
+                />
+            <ve.com.abicelis.creditcardexpensemanager.app.views.HorizontalBar
+                android:id="@+id/frag_overview_credit_balance_bar"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                hbar:barGradientColorStart="@color/horizontal_bar_balance_gradient_start"
+                hbar:barGradientColorEnd="@color/horizontal_bar_balance_gradient_end"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_overview_credit_extra_info_title"
+                />
+            <TextView
+                android:id="@+id/frag_overview_extra_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

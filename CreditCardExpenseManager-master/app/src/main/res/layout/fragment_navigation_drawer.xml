@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/nav_drawer_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+
+            <include
+                android:id="@+id/nav_drawer_credit_card"
+                layout="@layout/list_item_credit_card_selectable"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nav_drawer_err_no_cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/gray_800"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:text="@string/drawer_error_no_credit_cards"/>
+
+        <TextView
+            android:id="@+id/nav_drawer_err_select_a_cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/gray_800"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:text="@string/drawer_error_select_a_credit_card"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/nad_drawer_recyclerview_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        />
+
+</LinearLayout>

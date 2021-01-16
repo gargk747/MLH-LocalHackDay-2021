@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    /*Welcome activity */
+    <color name="welcome_activity_gradient_start">#2196F3</color>
+    <color name="welcome_activity_gradient_end">#1565C0</color>
+    <color name="welcome_activity_status_bar">#2196F3</color>
+
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="tabTextColor">#94c3f9</color>
+    <color name="colorAccent">#64b5f6</color>
+    <color name="navigationBarColor">#FFCC80</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="swipe_refresh_green">#7cb342</color>
+    <color name="swipe_refresh_red">#e53935</color>
+    <color name="swipe_refresh_yellow">#fdd835</color>
+
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+    /*Horizontal Bar DEFAULT colors*/
+    <color name="horizontal_bar_default_background">#E0E0E0</color>
+    <color name="horizontal_bar_default_text">#757575</color>
+    <color name="horizontal_bar_default_text_in">#FAFAFA</color>
+    <color name="horizontal_bar_default_text_out">#424242</color>
+    <color name="horizontal_bar_default_bar">#00c853</color>
+
+    <color name="horizontal_bar_credit_period">#0061EF</color>
+    <color name="horizontal_bar_credit_period_text_in">#E0E0E0</color>
+    <color name="horizontal_bar_balance_gradient_start">#00c853</color>
+    <color name="horizontal_bar_balance_gradient_end">#FF5722</color>
+    <color name="horizontal_bar_balance_text_in">#424242</color>
+
+
+    /*ExpenseCategories*/
+    <color name="expense_category_1">#AB47BC</color>
+    <color name="expense_category_2">#5C6BC0</color>
+    <color name="expense_category_3">#009688</color>
+    <color name="expense_category_4">#43A047</color>
+    <color name="expense_category_5">#FB8C00</color>
+    <color name="expense_category_6">#8D6E63</color>
+    <color name="expense_category_7">#FF5722</color>
+    <color name="expense_category_8">#757575</color>
+
+
+    /* Colors for CC Background enum */
+    <color name="cc_text_white">#FAFAFA</color>
+    <color name="cc_text_black">#424242</color>
+
+    <color name="cc_foreground_red">#B12025</color>
+    <color name="cc_foreground_green">#006838</color>
+    <color name="cc_foreground_gold">#BF8329</color>
+    <color name="cc_foreground_orange">#BF1E2D</color>
+    <color name="cc_foreground_light_blue">#0061EF</color>
+    <color name="cc_foreground_light_gray">#666666</color>
+
+
+    <color name="cc_background_dark_red_start">#440A11</color>
+    <color name="cc_background_dark_red_end">#231F20</color>
+    <color name="cc_background_red_start">#5E0000</color>
+    <color name="cc_background_red_end">#800000</color>
+    <color name="cc_background_dark_green_start">#0A723A</color>
+    <color name="cc_background_dark_green_end">#231F20</color>
+    <color name="cc_background_gold_start">#D2AC60</color>
+    <color name="cc_background_gold_end">#F4E6D0</color>
+    <color name="cc_background_orange_start">#832117</color>
+    <color name="cc_background_orange_end">#EF6E36</color>
+    <color name="cc_background_light_blue_start">#035372</color>
+    <color name="cc_background_light_blue_end">#00AEEF</color>
+    <color name="cc_background_light_gray_start">#818285</color>
+    <color name="cc_background_light_gray_end">#BBBDBF</color>
+
+
+
+</resources>

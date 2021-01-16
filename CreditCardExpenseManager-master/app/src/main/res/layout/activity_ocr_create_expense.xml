@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_expense_ocr_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <ve.com.abicelis.creditcardexpensemanager.ocr.camera.CameraSourcePreview
+        android:id="@+id/create_expense_ocr_camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ve.com.abicelis.creditcardexpensemanager.ocr.camera.GraphicOverlay
+            android:id="@+id/create_expense_ocr_graphic_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ve.com.abicelis.creditcardexpensemanager.ocr.camera.CameraSourcePreview>
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/create_expense_ocr_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:theme="@style/ToolbarTheme"
+            android:background="@color/colorPrimary"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/create_expense_ocr_window_container"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/create_expense_ocr_window"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/background_ocr_window"
+                    />
+
+                <ImageView
+                    android:id="@+id/create_expense_ocr_window_resizer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_resize"
+                    />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:background="#99999999"
+        android:padding="6dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/gray_100"
+                android:text="@string/activity_create_expense_ocr_detected_text"/>
+
+            <TextView
+                android:id="@+id/create_expense_ocr_txt_detected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/gray_100"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="Sample captured text"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:id="@+id/create_expense_ocr_btn_capture"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/icon_capture_text"
+                    />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@color/textColorPrimary"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="12dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:text="@string/dialog_create_expense_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/create_expense_ocr_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="numberDecimal"
+                            android:imeOptions="actionNext"
+                            android:backgroundTint="@color/gray_700"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        >
+                        <ImageView
+                            android:id="@+id/create_expense_ocr_image"
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:src="@drawable/icon_camera"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+                <TextView
+                    android:text="@string/dialog_create_expense_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/create_expense_ocr_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:text=""
+                    android:imeOptions="actionDone"
+                    android:backgroundTint="@color/gray_700"
+                    />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/dialog_create_expense_category"/>
+
+                        <Spinner
+                            android:id="@+id/create_expense_ocr_category"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:theme="@style/SpinnerStyle"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/dialog_create_expense_type"/>
+
+                        <Spinner
+                            android:id="@+id/create_expense_ocr_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:theme="@style/SpinnerStyle"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="bottom"
+                android:padding="8dp"
+                >
+
+                <Button
+                    android:id="@+id/create_expense_ocr_btn_create"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/dialog_create_expense_button_create"
+                    android:layout_alignParentRight="true"
+                    style="?attr/borderlessButtonStyle"/>
+
+                <Button
+                    android:id="@+id/create_expense_ocr_btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_toStartOf="@id/create_expense_ocr_btn_create"
+                    android:layout_toLeftOf="@id/create_expense_ocr_btn_create"
+                    android:text="@string/dialog_create_expense_button_cancel"
+                    style="?attr/borderlessButtonStyle"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
