@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorPrimaryLight">#77DF79</color>
+    <color name="colorAccent">#bfbfbf</color>
+    <color name="colorAccentMild">#885D44</color>
+    <color name="colorAccentLight">#E6E6CA</color>
+    <color name="gray">#b3b3b3</color>
+
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+
+        <item name="android:textSize">25dp</item>
+
+    </style>
+</resources>

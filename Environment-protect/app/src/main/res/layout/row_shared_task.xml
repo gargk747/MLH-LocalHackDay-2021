@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/iv_homePostImage"
+            android:scaleType="center"
+            android:padding="5dp"
+            android:layout_marginTop="13dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_taskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_taskName"
+        android:text="Days: 2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_dateOfCompletion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_days"
+        android:text="Date of Completion:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tv_timeShared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_days"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sharedBy"
+        android:layout_below="@id/tv_dateOfCompletion"
+        android:layout_marginStart="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_comments"
+        android:text="Comments"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/tv_sharedBy" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

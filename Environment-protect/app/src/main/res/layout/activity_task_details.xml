@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaskDetails">
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:textColor="#202020"
+        android:textSize="17sp"
+        android:layout_weight="1" />
+
+    <com.whygraphics.multilineradiogroup.MultiLineRadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/rg_multi"
+        android:background="@drawable/rect_blue_bound"
+        android:layout_weight="1"
+        app:max_in_row="4"
+        app:radio_buttons="@array/radio_buttons" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="50dp"
+        android:visibility="gone"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimaryLight"
+        android:textColor="#202020"
+        android:text="@string/start" />
+</LinearLayout>

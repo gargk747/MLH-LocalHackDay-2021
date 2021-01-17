@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "59685368037",
+    "firebase_url": "https://lutescens-application.firebaseio.com",
+    "project_id": "lutescens-application",
+    "storage_bucket": "lutescens-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59685368037:android:897e9995215517e542a40c",
+        "android_client_info": {
+          "package_name": "com.example.lutescensapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59685368037-voc5sgnvr7fl78qpc50gp2gjos4im3rq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lutescensapplication",
+            "certificate_hash": "f396bb50113b5c162224d7ebc37c5ae00004d142"
+          }
+        },
+        {
+          "client_id": "59685368037-29f455mpa3ab75jogjpej1bsrbcku1va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzKPjBxdE9x9PNd7DcVHVzJA3YfMhicYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59685368037-29f455mpa3ab75jogjpej1bsrbcku1va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

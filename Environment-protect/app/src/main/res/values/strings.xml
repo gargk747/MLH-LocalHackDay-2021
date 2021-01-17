@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Lutescens</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_car">Cars emit carbon dioxide, a very dangerous gas that arise
+        the threat of the global warning. Furthermore, other car pollutants harm human health,
+        with very fine particles that can lodge deep in lungs, where can cause respiratory problems.\n\n
+        Use for some days public transports, your bike or just walk. Is cheaper and healthier!
+    </string>
+    <string name="action_bottled_water">Did you know that takes at least 450 years
+        for a plastic bottle to totally degrade? And that most of them are not even recycled?
+        Plastic is dangerous for our environment and for the nature.
+        \n\nDo yourself a favor, drink tap water! IS FREE!
+    </string>
+    <string name="action_coffee">Every year, 16 billion paper cups are produced. This means that more than
+        6 million trees are cut down to produce them. Moreover, Most of them are not recycled or disposed in the correct
+        way by people.\n\nUse your own coffee portable mug, this will help the nature and, since some shops
+        offer discounts if you bring your own mug, you will also save money!
+    </string>
+    <string name="action_rubbish">The rubbish in the streets deface our cities and tows. Some sort of rubbish, such as
+        glass or needles, are also dangerous for us and animals. Garbage can also end up in nature and pollute it.\n\n
+        Make a good action, collect some while you walk around your area!
+    </string>
+    <string name="action_save_water">The 70% of the earth\'s surface is water but only the 1% ot this percentage
+        is safe and available to drink. Is estimated that an average European uses 250 litres of water per day and part of it
+        is wasted.\n\nTry to save water while brushing your teeth by closing the tap or have a shower instead of
+        a bath. You can really make a change!
+    </string>
+    <string name="action_save_electricity">Electricity is mostly generated from fossil fuels and nuclear power stations, which really
+        affect our environment. But a big part of the electricity produced, get wasted by us for our irresponsible usage of it, also resulting
+        in additional costs for our bills.\n\nTurn off unnecessary lights, unplug unused electronics and switch to LED bulbs. Is
+        simple and can have a good influence on our environment (and wallet!).
+    </string>
+    <string name="action_tree">Cutting trees can result in the loss of animals\' habitats, harming nature and her ecosystems. It also affects
+        our planet with desertification, soil erosion, flooding and increased greenhouse gases in the atmosphere.\n\nBut if you plant one,
+        it will improve our air quality, make your city look better and fight the negative aspects of cutting trees down.
+        Protect your health and the earth. Plant a tree!
+    </string>
+    <string name="terms_and_conditions"><big><bold>General Data Protection Regulation (GDPR)</bold></big>\n\nAll information available at: www.gdpr-info.eu
+        \n\n\n\n<big><bold>Terms and Conditions</bold></big>
+        \n\nWelcome to Lutescens!\n\nThese terms and conditions outline the rules and regulations for the use of Lutescens application.
+        By accessing this application contents we assume you accept these terms and conditions. Do not continue to use register your account if you do not agree to take all of the terms and conditions stated on this page.
+        The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: “Client”, “You” and “Your” refers to you,
+        the person log on this application and compliant to the application authors\' terms and conditions.
+        “The Authors”, “Ourselves”, “We”, “Our” and “Us”, refers to the application authors. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves.
+        All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client\'s
+        needs in respect of provision of the Author\'s stated services, in accordance with and subject to, prevailing law of United Kingdom.
+        Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.
+        \n\n<bold>Licence</bold>\n\nUnless otherwise stated, Lutescens application and/or its licensor own the intellectual property rights for the material on the application itself.
+        All intellectual property rights are reserved. You may access this from Lutescens for your own personal use subjected to restrictions set in these terms and conditions.\n
+        \nYou must not: \n- Republish material from Lutescens without the consent of the Author and referencing the application\n
+        -Sell, rent or sub-license material from Website Name\n-Reproduce, duplicate or copy material from Lutescens\n-Redistribute content from Lutescens
+        \n\nThis Agreement shall begin on the date hereof. Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website.
+        Lutescens does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Lutescens, its author and/or affiliates.
+        Comments reflect the views and opinions of the person who post their views and opinions.
+        To the extent permitted by applicable laws, Lutescens shall not be liable for the Comments or for any liability,
+        damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
+        Lutescens reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.
+        \nYou warrant and represent that:\n-You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;\n
+        -The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;\n
+        -The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy;\n
+        -The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity;
+    </string>
+    <string name="start">Start!</string>
+    <string name="completed">Completed Tasks</string>
+    <string name="open_tasks">Open Tasks</string>
+    <string name="completed_tasks">Completed Tasks</string>
+
+
+</resources>
