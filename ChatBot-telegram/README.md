@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/fridayot"><img src="https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png" width="2500"></a></p> 
+<p align="center"><a href="https://t.me/fridayot"><img src="https://static.botsrv.com/website/img/quriobot_favicon.1727b193.png" width="250"></a></p> 
 <h1 align="center"><b>CHAT-BOT</b></h1>
 <h4 align="center">A Simple Chatbot In Telethon With Join To Message Support !</h4>
 
@@ -28,4 +28,4 @@ published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version. 
 
 # Credits
- • @Spechide For his [SQL Plugin](https://github.com/DevsExpo/ChatBot/blob/main/chatrobot/plugins/sql/users_sql.py) 
+ • @Spechide For his [SQL Plugin](https://github.com/gargk747/MLH-LocalHackDay-2021/ChatBot/blob/main/chatrobot/plugins/sql/users_sql.py) 
